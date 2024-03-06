@@ -10,6 +10,7 @@ public class Main {
 
     private static void printContributors() {
         System.out.println("Mateusz Jurek - zurson");
+        System.out.println("Arkadiusz Sałaj - Nerekk");
     }
 
 }
