@@ -25,7 +25,7 @@ public class Calculations implements IArithmeticsAdd, IArithmeticsDiff, IArithme
 
     @Override
     public double power(double a, double b) {
-        if(b == 0) return 1;
+        if(b == 0) return 1.0;
         double exp = b;
         double result = a;
         if(b < 0) exp *= -1;
