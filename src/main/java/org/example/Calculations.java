@@ -1,8 +1,8 @@
 package org.example;
-
 import org.example.Interfaces.IArithmeticsAdd;
 import org.example.Interfaces.IArithmeticsDiff;
 import org.example.Interfaces.IArithmeticsDiv;
+import org.example.Interfaces.IArithmeticsMultiply;
 import org.example.Interfaces.IArithmeticsPower;
 
 public class Calculations implements IArithmeticsAdd, IArithmeticsDiff, IArithmeticsDiv, IArithmeticsPower {
@@ -23,6 +23,11 @@ public class Calculations implements IArithmeticsAdd, IArithmeticsDiff, IArithme
         return a / b;
     }
 
+    @Override
+    public double Multiplication(double a, double b) {
+        return a * b;
+    }
+  
     @Override
     public double power(double a, double b) {
         if(b == 0) return 1.0;
