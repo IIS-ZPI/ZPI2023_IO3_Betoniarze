@@ -5,7 +5,7 @@ import org.example.Interfaces.IArithmeticsDiv;
 import org.example.Interfaces.IArithmeticsMultiply;
 import org.example.Interfaces.IArithmeticsPower;
 
-public class Calculations implements IArithmeticsAdd, IArithmeticsDiff, IArithmeticsDiv, IArithmeticsPower {
+public class Calculations implements IArithmeticsAdd, IArithmeticsDiff, IArithmeticsDiv, IArithmeticsPower, IArithmeticsMultiply {
 
     @Override
     public double addition(double a, double b) {
