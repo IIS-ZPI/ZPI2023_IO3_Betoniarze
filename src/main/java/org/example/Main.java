@@ -12,6 +12,7 @@ public class Main {
         System.out.println("Mateusz Jurek - zurson");
         System.out.println("Arkadiusz Sałaj - Nerekk");
         System.out.println("Mateusz Musiał - Mwteusz");
+        System.out.println("Dominik Gajda - ExaggeratedRumors");
     }
 
 }
