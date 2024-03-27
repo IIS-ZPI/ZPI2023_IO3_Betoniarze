@@ -14,7 +14,8 @@ public class Calculations implements IArithmeticsAdd, IArithmeticsDiff, IArithme
   
     @Override
     public double difference(double A, double B) { return A - B; }
-  
+
+    // zad5 komentarz3
     @Override
     public double division(double a, double b) {
         if (b == 0) {
