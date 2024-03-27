@@ -11,7 +11,8 @@ public class Calculations implements IArithmeticsAdd, IArithmeticsDiff, IArithme
     public double addition(double a, double b) {
         return a + b;
     }
-  
+
+    // zad5 komentarz2
     @Override
     public double difference(double A, double B) { return A - B; }
   
