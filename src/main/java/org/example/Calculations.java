@@ -7,6 +7,14 @@ import org.example.Interfaces.IArithmeticsPower;
 
 public class Calculations implements IArithmeticsAdd, IArithmeticsDiff, IArithmeticsDiv, IArithmeticsPower, IArithmeticsMultiply {
 
+    /**
+     *
+     * Function that provides the functionality of the sum of two numbers
+     *
+     * @param a first value
+     * @param b second value
+     * @return sum of numbers given as arguments
+     */
     @Override
     public double addition(double a, double b) {
         return a + b;
