@@ -8,6 +8,9 @@ public class Main {
         printContributors();
     }
 
+    /**
+     * Static method to print all contributors.
+     */
     private static void printContributors() {
         System.out.println("Mateusz Jurek - zurson");
         System.out.println("Arkadiusz Sałaj - Nerekk");
