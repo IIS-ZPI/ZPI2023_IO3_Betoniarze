@@ -7,11 +7,13 @@ import org.example.Interfaces.IArithmeticsPower;
 
 public class Calculations implements IArithmeticsAdd, IArithmeticsDiff, IArithmeticsDiv, IArithmeticsPower, IArithmeticsMultiply {
 
+    // zad5 komentarz1
     @Override
     public double addition(double a, double b) {
         return a + b;
     }
-  
+
+    // zad5 komentarz2
     @Override
     public double difference(double A, double B) { return A - B; }
 
