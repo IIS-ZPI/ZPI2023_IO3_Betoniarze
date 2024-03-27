@@ -24,10 +24,16 @@ public class Calculations implements IArithmeticsAdd, IArithmeticsDiff, IArithme
     }
 
     @Override
-    public double multiplication(double a, double b) {
-        return a * b;
+    public double multiplication(double a, double b) { // Multiplication method
+        return a * b; // Multiplies a with b
     }
-  
+
+    /**
+     * Implementation of function power.
+     * @param a base number
+     * @param b exponent number
+     * @return result
+     */
     @Override
     public double power(double a, double b) {
         if(b == 0) return 1.0;
