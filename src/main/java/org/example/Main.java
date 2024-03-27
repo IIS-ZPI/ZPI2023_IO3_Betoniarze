@@ -2,10 +2,6 @@ package org.example;
 
 public class Main {
 
-    /**
-     * Main function from which program starts
-     * @param args command line arguments
-     */
     public static void main(String[] args) {
         System.out.println("Betoniarze: thejerremi DevOps");
 
