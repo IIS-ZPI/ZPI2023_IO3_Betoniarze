@@ -27,8 +27,7 @@ public class Calculations implements IArithmeticsAdd, IArithmeticsDiff, IArithme
     public double multiplication(double a, double b) {
         return a * b;
     }
-
-    // zad6 feature komentarz
+  
     @Override
     public double power(double a, double b) {
         if(b == 0) return 1.0;
