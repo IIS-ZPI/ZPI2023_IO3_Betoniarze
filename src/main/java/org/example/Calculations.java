@@ -5,9 +5,6 @@ import org.example.Interfaces.IArithmeticsDiv;
 import org.example.Interfaces.IArithmeticsMultiply;
 import org.example.Interfaces.IArithmeticsPower;
 
-/**
- * Class builder for calculation operations
- */
 public class Calculations implements IArithmeticsAdd, IArithmeticsDiff, IArithmeticsDiv, IArithmeticsPower, IArithmeticsMultiply {
 
     @Override
