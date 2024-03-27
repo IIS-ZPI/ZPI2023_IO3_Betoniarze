@@ -3,7 +3,7 @@ package org.example;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Betoniarze: thejerremi DevOps"); // Scrum master and DevOps
+        System.out.println("Betoniarze: thejerremi DevOps"); // Scrum master
 
         printContributors();
     }
