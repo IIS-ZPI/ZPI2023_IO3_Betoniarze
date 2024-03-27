@@ -8,6 +8,9 @@ public class Main {
         printContributors();
     }
 
+    /**
+     * Function which prints all team members except the SCRUM Master
+     */
     private static void printContributors() {
         System.out.println("Mateusz Jurek - zurson");
         System.out.println("Arkadiusz Sałaj - Nerekk");
