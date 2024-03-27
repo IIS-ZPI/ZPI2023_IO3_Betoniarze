@@ -25,7 +25,7 @@ public class Calculations implements IArithmeticsAdd, IArithmeticsDiff, IArithme
 
     @Override
     public double multiplication(double a, double b) {
-        return a * b;
+        return a * b; // Multiplies a with b
     }
   
     @Override
